@@ -48,7 +48,7 @@ def mel_to_audio(M, sr):
 
 
 def write_audio(y, sr):
-    print('writing audio...')
+    # print('writing audio...')
     sf.write(r'../data/songs/test_inv.wav', y, sr)
 
 
